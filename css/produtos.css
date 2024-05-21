@@ -5,6 +5,7 @@
     font-family: "Poppins", sans-serif;
 }
 
+
 header{
     padding: 24px;
     width: 100vw;
@@ -46,4 +47,31 @@ input{
 h3{
     color: #FF914D;
     font-weight: normal;
+}
+
+h2 {
+    color: #FF914D;
+}
+
+.produtos{
+    padding: 90px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.card img{
+    width: 120px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+}
+
+.nav-item{
+    color: #6E17AF;
 }
